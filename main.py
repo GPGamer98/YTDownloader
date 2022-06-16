@@ -47,8 +47,7 @@ def on_progress(stream, chunk, bytes_remaining):
 
 def check_updates():
     try:
-        response = requests.get(
-            'https://raw.githubusercontent.com/vsantiago113/Tkinter-MyTestApp/master/version.txt')
+        response = requests.get('https://pastebin.com/raw/dkUr58S3')
         data = response.text
 
         if float(data) > float(version):
@@ -58,8 +57,7 @@ def check_updates():
             Si o no? (s/n)  ''')
 
             if updateRequest == "s":
-                webbrowser.open_new_tab('''https://github.com/vsantiago113/Tkinter-MyTestApp/raw/master/
-                                        updates/MyTestApp.msi?raw=true''')
+                webbrowser.open_new_tab('''https://github.com/GPGamer98/YTDownloader/releases/download/v1.2/YTDownloader1.2_setup.exe''')
             else:
                 pass
     except Exception as e:
