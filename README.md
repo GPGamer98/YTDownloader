@@ -31,6 +31,7 @@ Ok, we have almost finished our task list!
 - [ ] Start using the program
 
 ###### 3. Start using the program
+(It can take a bit to load)
 Start YTDownloader
 ![4](https://user-images.githubusercontent.com/89650503/174051832-7a17f020-11c5-4ce9-84a5-4d4d590fd0df.png)
 
