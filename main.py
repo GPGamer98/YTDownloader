@@ -47,8 +47,6 @@ def on_progress(stream, chunk, bytes_remaining):
 
 def check_updates():
     try:
-        # -- Online Version File
-        # -- Replace the url for your file online with the one below.
         response = requests.get(
             'https://raw.githubusercontent.com/vsantiago113/Tkinter-MyTestApp/master/version.txt')
         data = response.text
@@ -60,9 +58,8 @@ def check_updates():
             Si o no? (s/n)  ''')
 
             if updateRequest == "s":
-                # -- Replace the url for your file online with the one below.
                 webbrowser.open_new_tab('''https://github.com/vsantiago113/Tkinter-MyTestApp/raw/master/
-                                                updates/MyTestApp.msi?raw=true''')
+                                        updates/MyTestApp.msi?raw=true''')
             else:
                 pass
     except Exception as e:
