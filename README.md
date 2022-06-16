@@ -35,3 +35,8 @@ Start YTDownloader
 ![4](https://user-images.githubusercontent.com/89650503/174051832-7a17f020-11c5-4ce9-84a5-4d4d590fd0df.png)
 
 And then the program will guide you.
+
+Finally! We finished our task list!
+- [x] Download the installer
+- [x] Install the program
+- [x] Start using the program
