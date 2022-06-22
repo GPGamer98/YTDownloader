@@ -1,6 +1,9 @@
 # YTDownloader
 ## A simple YouTube downloader written in Python
 
+## Important:
+### Make sure to run the program as administrator!
+
 ### VirusTotal
 .py file: [Click here](https://www.virustotal.com/gui/file/0d10accc486de9e77dde4854e725bf4b82aa96a7195d43ad808f3ef4affeda21) or use this link: https://www.virustotal.com/gui/file/0d10accc486de9e77dde4854e725bf4b82aa96a7195d43ad808f3ef4affeda21
 
